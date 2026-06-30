@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "Casper Gutteling"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "controls": {
+    "animationsOn": "Animations: On",
+    "animationsOff": "Animations: Off"
+  },
+  "hero": {
+    "kicker": "Frontend Developer",
+    "title": "Casper Gutteling",
+    "tagline": "Detail-oriented frontend developer dedicated to creating visually refined and high-performing web experiences. Combines technical skill with aesthetic awareness to deliver interfaces that leave a strong first impression.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch"
+  },
+  "profile": {
+    "name": "Casper Gutteling",
+    "role": "Frontend Developer"
+  },
+  "projects": {
+    "kicker": "Selected work",
+    "title": "Projects",
+    "intro": "A snapshot of projects that put focus on clean interfaces, subtle motion, and accessible, performant frontend architecture.",
+    "carouselHint": "Use arrow keys or swipe to browse projects."
+  },
+  "skills": {
+    "kicker": "Skill levels",
+    "title": "Skills overview",
+    "intro": "An at-a-glance overview of current skill levels and topics in progress.",
+    "intermediate": {
+      "title": "Intermediate"
+    },
+    "learning": {
+      "title": "Currently learning"
+    },
+    "beginner": {
+      "title": "Beginner"
+    }
+  },
+  "about": {
+    "title": "About Casper Gutteling",
+    "body": {
+      "1": "Frontend developer with a strong foundation in modern web development and a continuous drive to improve. Experienced at an intermediate level in HTML and CSS, with a solid understanding of responsive design, clean layouts, and structured, maintainable code. Comfortable working within Scrum and Agile environments, contributing effectively to collaborative development processes.",
+      "2": "Currently expanding technical knowledge by exploring Bootstrap for faster UI development, and diving into Arduino and C++ to broaden understanding of how software interacts with hardware. This cross-disciplinary curiosity strengthens problem-solving skills and technical perspective.",
+      "3": "At a beginner level in PHP and JavaScript, with ongoing efforts to deepen practical experience and refine programming logic. Focused on building visually polished, user-friendly interfaces while steadily advancing toward more complex front-end and full-stack capabilities.",
+      "4": "Driven by attention to detail, structured workflows, and the ambition to continuously grow as a developer.",
+      "5": "This portfolio focuses on clarity, subtle animation, and strong fundamentals, making it easy to adapt to different projects and audiences."
+    },
+    "locationLabel": "Based in",
+    "locationValue": "Hellevoetsluis, South Holland, The Netherlands",
+    "focusLabel": "Focus",
+    "focusValue": "Frontend development, UI, accessibility, and performance."
+  },
+  "contact": {
+    "kicker": "Let\u2019s collaborate",
+    "title": "Get in touch",
+    "intro": "Feel free to reach out about collaborations, freelance work, or frontend-focused roles.",
+    "detailsTitle": "Contact details",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "locationLabel": "Location",
+    "locationValue": "Hellevoetsluis, South Holland, The Netherlands",
+    "socialTitle": "Social",
+    "formTitle": "Send a message",
+    "formNote": "This form only validates on the frontend by default. Connect it to your preferred backend or service before using it in production.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me a bit about your project or idea.",
+      "submitLabel": "Send message"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "\u00a9 {{CURRENT_YEAR}} Casper Gutteling. All rights reserved.",
+    "meta": "Built as a multi-style, accessible frontend portfolio."
+  }
+}
+

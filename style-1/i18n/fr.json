@@ -1,0 +1,104 @@
+{
+  "brand": {
+    "name": "Casper Gutteling"
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "controls": {
+    "animationsOn": "Animations : activées",
+    "animationsOff": "Animations : désactivées"
+  },
+  "hero": {
+    "kicker": "Développeur frontend",
+    "title": "Casper Gutteling",
+    "tagline": "Detail-oriented frontend developer dedicated to creating visually refined and high-performing web experiences. Combines technical skill with aesthetic awareness to deliver interfaces that leave a strong first impression.",
+    "ctaProjects": "Voir les projets",
+    "ctaContact": "Me contacter"
+  },
+  "profile": {
+    "name": "Casper Gutteling",
+    "role": "Développeur frontend"
+  },
+  "projects": {
+    "kicker": "Travaux sélectionnés",
+    "title": "Projets",
+    "intro": "Un aperçu de projets mettant l’accent sur des interfaces claires, un mouvement subtil et des frontends accessibles et performants.",
+    "carouselHint": "Utilisez les flèches du clavier ou le geste de balayage pour parcourir les projets."
+  },
+  "skills": {
+    "kicker": "Technologies principales",
+    "title": "Compétences & focus",
+    "intro": "D’un HTML accessible et d’un CSS moderne à des expériences pilotées par JavaScript, avec PHP et SQL en support si nécessaire.",
+    "intermediate": {
+      "title": "Intermediaire"
+    },
+    "learning": {
+      "title": "En apprentissage"
+    },
+    "beginner": {
+      "title": "Debutant"
+    },
+    "frontend": {
+      "title": "Fondations frontend",
+      "body": "HTML5 sémantique, CSS responsive et JavaScript vanilla pour des interfaces rapides et intuitives."
+    },
+    "uiux": {
+      "title": "UI & micro-interactions",
+      "body": "Des animations réfléchies, une hiérarchie claire et une mise en page qui guide l’utilisateur sans le submerger.",
+      "label": "Design systems & motion"
+    },
+    "backend": {
+      "title": "Backend de support",
+      "body": "PHP et SQL pour de petites APIs, des formulaires de contact et des fonctionnalités basées sur les données."
+    }
+  },
+  "about": {
+    "title": "\u00c0 propos de Casper Gutteling",
+    "body": {
+      "1": "D\u00e9veloppeur frontend avec une solide base en d\u00e9veloppement web moderne et une volont\u00e9 constante de progresser. Exp\u00e9riment\u00e9 \u00e0 un niveau interm\u00e9diaire en HTML et CSS, avec une bonne compr\u00e9hension du design responsive, des mises en page claires et d'un code structur\u00e9 et maintenable. \u00c0 l'aise dans les environnements Scrum et Agile, contribuant efficacement aux processus de d\u00e9veloppement collaboratifs.",
+      "2": "Actuellement en train d'\u00e9largir ses connaissances techniques en explorant Bootstrap pour un d\u00e9veloppement UI plus rapide, et en se plongeant dans Arduino et C++ pour mieux comprendre l'interaction entre logiciel et mat\u00e9riel. Cette curiosit\u00e9 interdisciplinaire renforce les comp\u00e9tences en r\u00e9solution de probl\u00e8mes et la perspective technique.",
+      "3": "\u00c0 un niveau d\u00e9butant en PHP et JavaScript, avec des efforts continus pour approfondir l'exp\u00e9rience pratique et affiner la logique de programmation. Concentr\u00e9 sur la cr\u00e9ation d'interfaces visuellement soign\u00e9es et conviviales tout en progressant r\u00e9guli\u00e8rement vers des comp\u00e9tences front-end et full-stack plus complexes.",
+      "4": "Motiv\u00e9 par le souci du d\u00e9tail, des workflows structur\u00e9s et l'ambition de progresser continuellement en tant que d\u00e9veloppeur.",
+      "5": "Ce portfolio met l'accent sur la clart\u00e9, des animations discr\u00e8tes et des bases solides, ce qui le rend facile \u00e0 adapter \u00e0 diff\u00e9rents projets et publics."
+    },
+    "locationLabel": "Basé à",
+    "locationValue": "Hellevoetsluis, Hollande-Méridionale, Pays-Bas",
+    "focusLabel": "Focus",
+    "focusValue": "Développement frontend, UI, accessibilité et performance."
+  },
+  "contact": {
+    "kicker": "Travailler ensemble ?",
+    "title": "Contact",
+    "intro": "N’hésitez pas à me contacter pour des collaborations, missions freelance ou postes orientés frontend.",
+    "detailsTitle": "Détails de contact",
+    "nameLabel": "Nom",
+    "emailLabel": "E-mail",
+    "locationLabel": "Localisation",
+    "locationValue": "Hellevoetsluis, Hollande-Méridionale, Pays-Bas",
+    "socialTitle": "Réseaux",
+    "formTitle": "Envoyer un message",
+    "formNote": "Ce formulaire ne fait qu’une validation côté frontend. Connectez-le à votre backend ou service avant de l’utiliser en production.",
+    "form": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vous@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez brièvement de votre projet ou de votre idée.",
+      "submitLabel": "Envoyer le message"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© {{CURRENT_YEAR}} Casper Gutteling. Tous droits réservés.",
+    "meta": "Créé comme portfolio frontend multi-style et accessible."
+  }
+}
+

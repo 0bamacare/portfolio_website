@@ -1,0 +1,105 @@
+﻿{
+  "brand": {
+    "name": "Casper Gutteling"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projecten",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "controls": {
+    "animationsOn": "Animaties: aan",
+    "animationsOff": "Animaties: uit"
+  },
+  "hero": {
+    "kicker": "Frontend developer",
+    "title": "Casper Gutteling",
+    "tagline": "Frontend developer met oog voor detail, gericht op rustige, duidelijke en gebruiksvriendelijke websites. Ik combineer technische basis met gevoel voor layout, typografie en nette interacties.",
+    "ctaProjects": "Bekijk projecten",
+    "ctaContact": "Neem contact op"
+  },
+  "profile": {
+    "name": "Casper Gutteling",
+    "role": "Frontend developer"
+  },
+  "projects": {
+    "kicker": "Geselecteerd werk",
+    "title": "Projecten",
+    "intro": "Een selectie van projecten met de nadruk op heldere interfaces, subtiele animaties en toegankelijke, performante frontends.",
+    "carouselHint": "Gebruik pijltjestoetsen of swipe om projecten te bekijken."
+  },
+  "skills": {
+    "kicker": "Belangrijkste technologie\u00ebn",
+    "title": "Skills & focus",
+    "intro": "Van toegankelijke HTML en moderne CSS tot JavaScript-ervaringen, met PHP en SQL waar nodig als ondersteuning.",
+    "intermediate": {
+      "title": "Gemiddeld"
+    },
+    "learning": {
+      "title": "Momenteel aan het leren"
+    },
+    "beginner": {
+      "title": "Beginner"
+    },
+    "frontend": {
+      "title": "Frontend fundamentals",
+      "body": "Semantische HTML5, responsive CSS en vanilla JavaScript voor interfaces die snel en intu\u00eftief aanvoelen."
+    },
+    "uiux": {
+      "title": "UI & micro-interactions",
+      "body": "Doordachte animaties, hi\u00ebrarchie en layout die gebruikers door de interface leiden zonder ze te overladen.",
+      "label": "Design systems & motion"
+    },
+    "backend": {
+      "title": "Ondersteunende backend",
+      "body": "PHP en SQL voor eenvoudige API\u2019s, contactendpoints en data-gestuurde features wanneer dat nodig is."
+    }
+  },
+  "about": {
+    "title": "Over Casper Gutteling",
+    "body": {
+      "1": "Frontend developer met een sterke basis in moderne webontwikkeling en een voortdurende drang om te verbeteren. Ervaren op intermediair niveau in HTML en CSS, met een goed begrip van responsive design, overzichtelijke layouts en gestructureerde, onderhoudbare code. Comfortabel werkend binnen Scrum- en Agile-omgevingen en levert een effectieve bijdrage aan samenwerkingsgerichte ontwikkelprocessen.",
+      "2": "Momenteel bezig met het uitbreiden van technische kennis door Bootstrap te verkennen voor snellere UI-ontwikkeling, en door Arduino en C++ te leren om beter te begrijpen hoe software samenwerkt met hardware. Deze interdisciplinaire nieuwsgierigheid versterkt probleemoplossende vaardigheden en technisch perspectief.",
+      "3": "Op beginnersniveau in PHP en JavaScript, met voortdurende inspanningen om praktische ervaring te verdiepen en programmeerlogica te verfijnen. Gericht op het bouwen van visueel verzorgde, gebruiksvriendelijke interfaces terwijl er gestaag wordt toegewerkt naar complexere front-end en full-stack mogelijkheden.",
+      "4": "Gedreven door oog voor detail, gestructureerde werkwijzen en de ambitie om continu te groeien als developer.",
+      "5": "Deze portfolio legt de nadruk op helderheid, subtiele animatie en sterke basisprincipes, zodat hij eenvoudig aanpasbaar is voor verschillende projecten en doelgroepen."
+    },
+    "locationLabel": "Gebaseerd in",
+    "locationValue": "Hellevoetsluis, Zuid-Holland, Nederland",
+    "focusLabel": "Focus",
+    "focusValue": "Frontend development, UI, toegankelijkheid en performance."
+  },
+  "contact": {
+    "kicker": "Samenwerken?",
+    "title": "Neem contact op",
+    "intro": "Stuur gerust een bericht over samenwerkingen, freelance opdrachten of frontend-rollen.",
+    "detailsTitle": "Contactgegevens",
+    "nameLabel": "Naam",
+    "emailLabel": "E-mailadres",
+    "locationLabel": "Locatie",
+    "locationValue": "Hellevoetsluis, Zuid-Holland, Nederland",
+    "socialTitle": "Social",
+    "formTitle": "Stuur een bericht",
+    "formNote": "Dit formulier valideert alleen aan de frontend. Koppel het aan je eigen backend of dienst voordat je het in productie gebruikt.",
+    "form": {
+      "nameLabel": "Naam",
+      "namePlaceholder": "Je naam",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "jij@example.com",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Vertel kort iets over je project of idee.",
+      "submitLabel": "Verstuur bericht"
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "\u00a9 {{CURRENT_YEAR}} Casper Gutteling. Alle rechten voorbehouden.",
+    "meta": "Gebouwd als een multi-style, toegankelijke frontend-portfolio."
+  }
+}
+
+

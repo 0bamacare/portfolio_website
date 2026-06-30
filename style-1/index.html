@@ -1,0 +1,369 @@
+﻿<!doctype html>
+<html lang="nl" data-style="style-1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Casper Gutteling - Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of frontend developer Casper Gutteling with modern, accessible web experiences."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="Go to home">
+          <span class="brand-mark">CG</span>
+          <span class="brand-text" data-i18n="brand.name">Casper Gutteling</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#home" data-i18n="nav.home">Home</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <div class="language-switcher" aria-label="Language selector">
+              <button
+                class="lang-toggle"
+                type="button"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-label="Change language"
+              >
+                <span class="lang-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M3 12h18M12 3a12 12 0 0 1 0 18M12 3a12 12 0 0 0 0 18"></path>
+                  </svg>
+                </span>
+                <span class="lang-current" data-lang-code>NL</span>
+              </button>
+              <ul class="lang-menu" role="listbox" aria-label="Select language">
+                <li><button type="button" data-lang="en">EN</button></li>
+                <li><button type="button" data-lang="nl">NL</button></li>
+                <li><button type="button" data-lang="de">DE</button></li>
+                <li><button type="button" data-lang="fr">FR</button></li>
+                <li><button type="button" data-lang="es">ES</button></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="section hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-copy" data-observe>
+            <p class="hero-kicker" data-i18n="hero.kicker">Frontend Developer</p>
+            <h1 id="hero-title" data-i18n="hero.title">Casper Gutteling</h1>
+            <p class="hero-tagline" data-i18n="hero.tagline">
+              Detail-oriented frontend developer dedicated to creating visually refined and high-performing web experiences. Combines technical skill with aesthetic awareness to deliver interfaces that leave a strong first impression.
+            </p>
+            <div class="hero-actions" aria-label="Primary actions">
+              <a class="btn primary" href="#projects" data-i18n="hero.ctaProjects">View projects</a>
+              <a class="btn ghost" href="#contact" data-i18n="hero.ctaContact">Get in touch</a>
+            </div>
+            <dl class="hero-stats" aria-label="Portfolio highlights">
+              <div>
+                <dt>05</dt>
+                <dd>Talen</dd>
+              </div>
+              <div>
+                <dt>02</dt>
+                <dd>Projecten</dd>
+              </div>
+              <div>
+                <dt>100%</dt>
+                <dd>Responsief</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-visual" data-observe>
+            <div class="hero-frame" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="orbit-card orbit-card-main">
+              <span class="card-kicker">Now building</span>
+              <strong>Accessible interfaces with polished motion</strong>
+              <span class="card-line"></span>
+            </div>
+            <div class="orbit-card orbit-card-small">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Frontend</span>
+          <span>Responsive design</span>
+          <span>Accessibility</span>
+          <span>Micro-interactions</span>
+          <span>Clean code</span>
+          <span>Frontend</span>
+          <span>Responsive design</span>
+          <span>Accessibility</span>
+          <span>Micro-interactions</span>
+          <span>Clean code</span>
+        </div>
+      </div>
+
+      <section id="projects" class="section projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="section-header" data-observe>
+            <span class="section-number">01</span>
+            <p class="section-kicker" data-i18n="projects.kicker">Selected work</p>
+            <h2 id="projects-title" data-i18n="projects.title">Projects</h2>
+            <p class="section-intro" data-i18n="projects.intro">
+              A snapshot of projects that put focus on clean interfaces, subtle motion, and accessible, performant frontend architecture.
+            </p>
+          </header>
+
+          <div class="carousel" role="region" aria-label="Projects carousel" data-carousel>
+            <div class="carousel-inner" data-carousel-track>
+              <!-- Cards injected from data/projects.json -->
+            </div>
+
+            <div class="carousel-controls">
+              <button class="carousel-btn prev" type="button" aria-label="Previous project" data-carousel-prev>
+                <span aria-hidden="true">&lsaquo;</span>
+              </button>
+              <button class="carousel-btn next" type="button" aria-label="Next project" data-carousel-next>
+                <span aria-hidden="true">&rsaquo;</span>
+              </button>
+            </div>
+
+            <div class="carousel-pagination" data-carousel-dots></div>
+            <p class="carousel-hint" data-i18n="projects.carouselHint">
+              Use arrow keys or swipe to browse projects.
+            </p>
+          </div>
+
+          <div class="projects-list-fallback" data-projects-fallback>
+            <noscript>
+              <ul class="projects-list">
+                <li>
+                  <h3>Interactive Portfolio Experience</h3>
+                  <p>Enable JavaScript to see full project details and carousel interactions.</p>
+                </li>
+              </ul>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="section-header" data-observe>
+            <span class="section-number">02</span>
+            <p class="section-kicker" data-i18n="skills.kicker">Core technologies</p>
+            <h2 id="skills-title" data-i18n="skills.title">Skills &amp; Focus</h2>
+            <p class="section-intro" data-i18n="skills.intro">
+              From accessible HTML and modern CSS to JavaScript-driven experiences, with PHP and SQL available where needed.
+            </p>
+          </header>
+
+          <div class="skills-grid">
+            <article class="skill-card" data-observe>
+              <span class="skill-index">01</span>
+              <h3 data-i18n="skills.intermediate.title">Intermediate</h3>
+              <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Scrum / Agile</li>
+              </ul>
+            </article>
+
+            <article class="skill-card" data-observe>
+              <span class="skill-index">02</span>
+              <h3 data-i18n="skills.learning.title">Currently learning</h3>
+              <ul class="skill-list">
+                <li>Bootstrap</li>
+                <li>Arduino</li>
+                <li>C++</li>
+              </ul>
+            </article>
+
+            <article class="skill-card" data-observe>
+              <span class="skill-index">03</span>
+              <h3 data-i18n="skills.beginner.title">Beginner</h3>
+              <ul class="skill-list">
+                <li>PHP</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="container about-inner">
+          <div class="about-copy" data-observe>
+            <span class="section-number">03</span>
+            <h2 id="about-title" data-i18n="about.title">About Casper Gutteling</h2>
+            <p data-i18n="about.body.1">
+              Frontend developer with a strong foundation in modern web development and a continuous drive to improve. Experienced at an intermediate level in HTML and CSS, with a solid understanding of responsive design, clean layouts, and structured, maintainable code. Comfortable working within Scrum and Agile environments, contributing effectively to collaborative development processes.
+            </p>
+            <p data-i18n="about.body.2">
+              Currently expanding technical knowledge by exploring Bootstrap for faster UI development, and diving into Arduino and C++ to broaden understanding of how software interacts with hardware. This cross-disciplinary curiosity strengthens problem-solving skills and technical perspective.
+            </p>
+            <p data-i18n="about.body.3">
+              At a beginner level in PHP and JavaScript, with ongoing efforts to deepen practical experience and refine programming logic. Focused on building visually polished, user-friendly interfaces while steadily advancing toward more complex front-end and full-stack capabilities.
+            </p>
+            <p data-i18n="about.body.4">
+              Driven by attention to detail, structured workflows, and the ambition to continuously grow as a developer.
+            </p>
+            <p data-i18n="about.body.5">
+              This portfolio focuses on clarity, subtle animation, and strong fundamentals, making it easy to adapt to different projects and audiences.
+            </p>
+          </div>
+          <div class="about-meta" data-observe>
+            <div class="about-feature">
+              <span>Design taste</span>
+              <strong>Minimal, sharp, and animated with restraint.</strong>
+            </div>
+            <ul class="about-list">
+              <li>
+                <span class="label" data-i18n="about.locationLabel">Based in</span>
+                <span class="value" data-i18n="about.locationValue">Hellevoetsluis, Zuid-Holland, Nederland</span>
+              </li>
+              <li>
+                <span class="label" data-i18n="about.focusLabel">Focus</span>
+                <span class="value" data-i18n="about.focusValue">
+                  Frontend development, UI, accessibility, and performance.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <header class="section-header" data-observe>
+            <span class="section-number">04</span>
+            <p class="section-kicker" data-i18n="contact.kicker">Let's collaborate</p>
+            <h2 id="contact-title" data-i18n="contact.title">Get in touch</h2>
+            <p class="section-intro" data-i18n="contact.intro">
+              Feel free to reach out about collaborations, freelance work, or frontend-focused roles.
+            </p>
+          </header>
+
+          <div class="contact-layout">
+            <div class="contact-details" data-observe>
+              <h3 data-i18n="contact.detailsTitle">Contact details</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="label" data-i18n="contact.nameLabel">Name</span>
+                  <span class="value">Casper Gutteling</span>
+                </li>
+                <li>
+                  <span class="label" data-i18n="contact.emailLabel">Email</span>
+                  <a href="mailto:102962@glr.nl" class="value">102962@glr.nl</a>
+                </li>
+                <li>
+                  <span class="label" data-i18n="contact.locationLabel">Location</span>
+                  <span class="value" data-i18n="contact.locationValue">
+                    Hellevoetsluis, Zuid-Holland, Nederland
+                  </span>
+                </li>
+              </ul>
+
+              <div class="social-links">
+                <h3 data-i18n="contact.socialTitle">Social</h3>
+                <ul>
+                  <li>
+                    <a href="https://github.com/0bamacare" target="_blank" rel="noopener noreferrer" data-i18n="social.github">GitHub</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/casper-gutteling-4b1a21398/" target="_blank" rel="noopener noreferrer" data-i18n="social.linkedin">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper" data-observe>
+              <h3 data-i18n="contact.formTitle">Send a message</h3>
+              <p class="contact-form-note" data-i18n="contact.formNote">
+                This form only validates on the frontend by default. Connect it to your preferred backend or service before using it in production.
+              </p>
+
+              <form class="contact-form" id="contact-form" novalidate>
+                <div class="form-field">
+                  <label for="name" data-i18n="contact.form.nameLabel">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" required data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Your name" />
+                  <p class="field-error" data-error-for="name"></p>
+                </div>
+
+                <div class="form-field">
+                  <label for="email" data-i18n="contact.form.emailLabel">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="you@example.com" />
+                  <p class="field-error" data-error-for="email"></p>
+                </div>
+
+                <div class="form-field">
+                  <label for="message" data-i18n="contact.form.messageLabel">Message</label>
+                  <textarea id="message" name="message" rows="4" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Tell me a bit about your project or idea."></textarea>
+                  <p class="field-error" data-error-for="message"></p>
+                </div>
+
+                <div class="form-field form-field-hidden" aria-hidden="true">
+                  <label for="website">Leave this field empty</label>
+                  <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+                </div>
+
+                <button class="btn primary" type="submit" data-i18n="contact.form.submitLabel">
+                  Send message
+                </button>
+
+                <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copyright">Â© 2026 Casper Gutteling. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+

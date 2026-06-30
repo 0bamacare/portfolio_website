@@ -1,0 +1,34 @@
+﻿{
+    "projects":  [
+                     {
+                         "title":  "Stockpilot",
+                         "slug":  "stockpilot-voorraadbeheer",
+                         "shortDescription":  "Voorraadbeheer website voor producten, categorieen, leveranciers en lage voorraad.",
+                         "longDescription":  "Stockpilot geeft bedrijven snel overzicht over hun voorraad. Het dashboard toont productaantallen, lage voorraad, recente voorraadbewegingen en producten die bijna op zijn. De interface is bewust rustig gehouden, zodat dagelijkse voorraadcontrole snel en duidelijk blijft.",
+                         "previewImage":  "assets/images/stockpilot-dashboard.png",
+                         "liveUrl":  "https://0bamacare.github.io/stockpilot/docs/",
+                         "repoUrl":  "",
+                         "techTags":  [
+                                          "Voorraadbeheer",
+                                          "Dashboard",
+                                          "HTML",
+                                          "CSS"
+                                      ]
+                     },
+                     {
+                         "title":  "Vecta",
+                         "slug":  "vecta-taken-planning",
+                         "shortDescription":  "Taken- en planningssoftware voor projecten, deadlines en kalenderoverzicht.",
+                         "longDescription":  "Vecta helpt teams om taken en planning overzichtelijk bij elkaar te houden. De kalenderweergave maakt deadlines, dagindeling en projectwerk direct zichtbaar, met gekleurde blokken voor snelle herkenning van taken en planning.",
+                         "previewImage":  "assets/images/vecta-planning.png",
+                         "liveUrl":  "https://102619.stu.sd-lab.nl/home",
+                         "repoUrl":  "",
+                         "techTags":  [
+                                          "Planning",
+                                          "Taken",
+                                          "Kalender",
+                                          "Vue"
+                                      ]
+                     }
+                 ]
+}
